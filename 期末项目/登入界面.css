@@ -1,0 +1,60 @@
+html,
+body {
+    font-size: 14px;
+    line-height: 1.5em; 
+    background-color: #fff;
+    background-image: url(background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 388px;
+    width: 350px;
+    padding: 20px;
+}
+
+
+
+.logo {
+    height: 95px;
+    margin: 0 0 10px 0;
+    background-image: url(logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.username,.password {
+    background-color: #E8F0FE;
+    width: 305px;
+    height: 40px;
+    padding: 0.5px;
+    border: #E8F0FE 6px;
+}
+
+
+.submit {
+    background-color: #1BB6B7;
+    width: 305px;
+    height: 40px;
+    border: #1BB6B7;
+    color: #fff;
+
+}
+
+p {
+    color: #777;
+    line-height: 24px;
+}
